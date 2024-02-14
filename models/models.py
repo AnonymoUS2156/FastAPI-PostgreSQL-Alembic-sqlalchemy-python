@@ -6,9 +6,8 @@ Base = declarative_base()
 metadata = MetaData()
 
 synonyms = Table(
-    "synonyms",
+    "synonym",
     metadata,
-    Column("first_string", String, nullable=False),
-    Column("second_string", String, nullable=True)
+    Column("first_synonym", String, nullable=False),
+    Column("second_synonym", String, nullable=True)
 )
-
