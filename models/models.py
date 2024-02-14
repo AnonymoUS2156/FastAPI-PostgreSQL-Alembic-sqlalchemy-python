@@ -10,6 +10,5 @@ synonyms = Table(
     metadata,
     Column("first_string", String, nullable=False),
     Column("second_string", String, nullable=True)
-
 )
 
